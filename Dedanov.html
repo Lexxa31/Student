@@ -1,0 +1,54 @@
+<script>
+//1
+let kol = 0
+let a = parseInt(prompt('Сколько будет 2 + 5?'))
+if (a == 7){
+	alert('Верно')
+	kol++
+} else
+	alert('Неверно')
+a = parseInt(prompt('Сколько будет 3 + 9?'))
+if (a == 12){
+	alert('Верно')
+	kol++
+} else
+	alert('Неверно')
+alert('Количество верных ответов ' + Number(kol))
+//2
+c = ''
+for (i = 1; i <= 10; i++)
+	c = c + Number(i) + ' '
+alert(c)
+//3
+while(true){
+	a = prompt('Еще по одной?')
+	if(a == 1)
+		break
+}
+//4
+a = 1
+for(i = 2; i <= 9; i++)
+	a *= i
+alert('Факториал 9 равен ' + Number(a))
+//5
+c = 'Деданов'
+let fl = true
+for (i = 0; i < 3; i++)
+	if (c[i] != c[6 - i])
+		fl = false
+if (fl)
+	alert('Фамилия Деданов является палиндромом')
+else
+	alert('Фамилия Деданов не является палиндромом')
+//6
+c = 'Простые числа до 9: '
+for (i = 2; i <= 9; i++){
+	let kol = 0
+	for (k = 1; k <= i; k++)
+		if (i % k == 0)
+			kol++
+	if (kol == 2)
+		c += Number(i) + ' '
+}
+alert(c)
+</script>
