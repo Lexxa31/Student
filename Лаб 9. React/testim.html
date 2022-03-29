@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    
+  </head>
+  <body>
+
+    <h2>Какая-то страница</h2>
+	
+    <p>
+      Хорошо
+      <div class="like_button_container" data-commentid="1"></div>
+    </p>
+
+    <p>
+      Like
+      <div class="like_button_container" data-commentid="2"></div>
+    </p>
+
+    <p>
+      Хорошая страница
+      <div class="like_button_container" data-commentid="3"></div>
+    </p>
+
+	<div id="counter_button_container" data-commentid="1"></div>
+    <div class="button_2" id="like_button_container_1" data-commentid="2"></div>
+    <div class="button_3" id="like_button_container_2" data-commentid="3"></div>
+    <!-- Load React. -->
+    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+
+    <!-- Load our React component. -->
+    <script src="like_button.js"></script>
+	
+  </body>
+</html>
