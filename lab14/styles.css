@@ -1,0 +1,24 @@
+body {
+  background-color: #B0DF43;
+  color: blue;
+}
+
+div{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: #BD0332
+}
+
+button{
+            width: 100px;
+            height:30px;
+            border-radius: 4px;
+            margin:50px;
+        }
+        .on{
+            color:#666;
+            background-color: #ccc;
+        }
+        .off{
+            color:#888;
+            background-color: white;
+        }
